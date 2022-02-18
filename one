@@ -1,0 +1,18 @@
+te = txt[0]
+for let in txt:
+  for i in let:
+    for n in name:
+      if let == n:
+        name_list.__add__(i)
+
+
+less = te.split()
+print(less)
+pprint(name_list)
+
+for letters in less:
+  for lett in letters:
+    if lett == ',':
+      less.remove(lett)
+
+pprint(less)
