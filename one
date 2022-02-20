@@ -16,3 +16,10 @@ for letters in less:
       less.remove(lett)
 
 pprint(less)
+
+for letters in new_name:
+  title = []
+  size = {len(letters)}
+  title.append(letters)
+  name_code = f'{title}{{{size}}}'
+  send_name = re.findall(name_code)
